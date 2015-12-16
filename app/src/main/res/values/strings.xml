@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Automobile Accessoiores</string>
+    <string name="hello_world">Automobile Accessoiores</string>
+    <string name="title_activity_main_product">Automobile Accessoiores</string>
+    <string name="title_activity_volley_test">VolleyTest</string>
+    <string name="title_activity_main">Automobile Accessoiores</string>
+    <string name="dummy_section_text">s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="location_arrays">
+        <item>Bangla Motor</item>
+        <item>Dhanmondi</item>
+        <item>Motijeel</item>
+    </string-array>
+    <string-array name="showroom_arrays">
+        <item>Auto Zone</item>
+        <item>BD Kitz</item>
+        <item>Unique Auto Accessories</item>
+    </string-array>
+    <string name="title_activity_single_product_view">Single Product View</string>
+    <string name="name">Name</string>
+    <string name="price">987867 TK</string>
+    <string name="showroom">Show Room</string>
+    <string name="Call">Call</string>
+    <string name="SMS">SMS</string>
+</resources>

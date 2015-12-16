@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.automobileaccessoiores.automobileaccessoiores.SingleProductView"
+    tools:showIn="@layout/activity_single_product_view">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:background="#c5efe8"
+        android:orientation="vertical">
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/IVSingleImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".75"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#008080"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvName"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="24sp"
+                android:paddingTop="20dp"
+                android:padding="16dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:textColor="#020202"
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:hint="@string/price"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:textColor="#020202"
+                android:id="@+id/tvshowroomName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:hint="@string/showroom"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#3376cd"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_weight=".50"
+                    android:id="@+id/btnCall"
+                    android:background="@color/call"
+                    android:text="@string/Call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHighlight="#f5c4c70c"/>
+                <Button
+                    android:layout_weight=".5"
+                    android:id="@+id/btnSMS"
+                    android:background="@color/SMS"
+                    android:text="@string/SMS"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
